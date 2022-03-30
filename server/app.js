@@ -7,7 +7,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 
-
 // code from https://github.com/GoogleCloudPlatform/nodejs-docs-samples/blob/HEAD/cloud-sql/mysql/mysql/server.js
 // [START cloud_sql_mysql_mysql_create_tcp]
 const createTcpPool = async config => {
